@@ -1,0 +1,6 @@
+theme: jekyll-theme-minimal
+title: Daniel Caro
+description: Basic information about me
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge

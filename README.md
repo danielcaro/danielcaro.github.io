@@ -1,10 +1,7 @@
-# Daniel Caro
+# About Me
 
 
-## About Me
+# Experience 
 
 
-## Experience 
-
-
-## Interest
+# Interest
