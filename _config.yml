@@ -1,7 +1,7 @@
 title: Daniel Caro
 description: Basic information about me
 theme: minima
-logo: /assets/img/logo.png
+logo: /assets/img/logo_linkedin.jpeg
 
 # Navigation pages in header
 header_pages:
@@ -13,7 +13,7 @@ author:
   name: Daniel Caro
   email: "daniel.caro@gmail.com"
 
-# https://github.com/jekyll/minima
+# https://github.com/jekyll/minima/blob/v2.5.0/README.md
 minima:
   social_links:
     - title: Jekyll repository at GitHub
