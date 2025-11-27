@@ -4,13 +4,14 @@ theme: minima
 logo: /assets/img/logo_linkedin.jpeg
 
 header_pages:
+  - index.md
   - about.md
   - posts.md
-  - tutorials.md
 
 author: Daniel Caro
-email: "daniel.caro@gmail.com"
+email: "[daniel.caro+github]@[gmail.com]"
 linkedin_username: danielcarop
+github_username:  danielcaro
 
 # https://github.com/jekyll/minima/blob/v2.5.0/README.md
 minima:
@@ -27,7 +28,5 @@ plugins:
 
 # Other collections
 collections:
-  tutorials:
-    sort_by: date
   posts:
     sort_by: date

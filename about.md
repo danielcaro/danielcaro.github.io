@@ -4,20 +4,43 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Daniel Caro, a software engineer based in Chile.
+Hi, I'm Daniel Caro, a senior software engineer based in Chile.
 With experience in the development of web applications, microservices, and DevOps.
+
+Highly motivated and results-oriented professional with 15+ years of experience in software development, 
+specializing in web technologies and cloud computing. 
+
+Proven ability to deliver high-quality solutions and contribute effectively to team environments.
 
 ### Experience
 
 #### Senior Software Engineer at AIM Manager
-* **2019-present**
-* SaaS development for the management of the AIM project, software development and maintenance.
+**2019-present**
+
+* Full stak developer, springboot and angular.
+* Python Backend  developer.
+* Support and maintenance of the AIM project.
+
+#### Senior Software Engineer & Project Manager at Modyo
+**2018-2019**
+
+* Ruby Backend developer.
+* Support and maintenance of the Modyo project, for 2 clientes.
+
+#### Freelance Software Engineer
+**2017-2018**
+
+* Support and maintenance of IoT Platform.
+* C++ Firmware developer
+* Java Backend developer for IoT Device Gateway
+
+
 
 ### Skills
 
 #### Programming Languages
 
-`Python` `Java` `Kotlin` `Javascript` `Typescript` `Terraform` `R` `SQL`
+`Python` `Java` `Kotlin` `Javascript` `Typescript` `Terraform` `R` `SQL` `C++`
 
 #### Frameworks & Libraries
 

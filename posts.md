@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Publicaciones
+title: Posts
 permalink: /posts/
 ---
 
-## Lista de Publicaciones
+## Posts
 
 {% for post in site.posts %}
 - **[{{ post.title }}]({{ post.url | relative_url }})**  
