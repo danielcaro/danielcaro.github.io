@@ -20,6 +20,8 @@ specializing in web technologies and cloud computing.
 Proven ability to deliver high-quality solutions and contribute effectively to team environments.
 
 
+--- 
+
 ## Experience
 
 ### Senior Software Engineer at AIM Manager
@@ -44,13 +46,13 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 * C++ Firmware developer
 * Java Backend developer for IoT Device Gateway
 
-
+--- 
 
 ## Skills
 
 ### Programming Languages
 
-`Python` `Java` `Kotlin` `Javascript` `Typescript` `Terraform` `R` `SQL` `C++`
+`Python` `Java` `Kotlin` `Javascript` `Typescript` `R` `SQL` `C++`
 
 ### Frameworks & Libraries
 
@@ -62,9 +64,10 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 
 ### Methodologies
 
-`Agile` `CI/CD` `TDD` `BDD` `ShapeUp`
+`Agile` `CI/CD` `TDD` `BDD` `ShapeUp` `Clean Arquitecture` ``
 
 
+---
 
 ## Education & Certifications
 
