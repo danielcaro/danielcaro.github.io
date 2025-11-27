@@ -3,6 +3,10 @@ description: Basic information about me,bal bala bla a lot de unrelevant info bl
 theme: minima
 logo: /assets/img/logo_linkedin.jpeg
 
+header_pages:
+  - about.md
+  - posts.md
+  - tutorials.md
 
 author: Daniel Caro
 email: "daniel.caro@gmail.com"
