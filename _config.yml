@@ -25,3 +25,5 @@ plugins:
 collections:
   tutorials:
     sort_by: date
+  posts:
+    sort_by: date
