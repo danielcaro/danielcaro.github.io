@@ -1,35 +1,19 @@
-title: Daniel Caro
-description: Basic information about me
+title: Sustainable Software Development
+description: Basic information about me,bal bala bla a lot de unrelevant info bla bla bla
 theme: minima
 logo: /assets/img/logo_linkedin.jpeg
 
-# Navigation pages in header
-header_pages:
-  - index.md
-  - posts.md
-  - about.md
 
-author:
-  name: Daniel Caro
-  email: "daniel.caro@gmail.com"
+author: Daniel Caro
+email: "daniel.caro@gmail.com"
+linkedin_username: danielcarop
 
 # https://github.com/jekyll/minima/blob/v2.5.0/README.md
 minima:
-  social_links:
-    - title: Jekyll repository at GitHub
-      icon: github
-      url: "https://github.com/jekyll/jekyll"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
   include_styles: true
-  social_icons:
 
 sass:
   style: compressed
-
-# Footer text
-footer_text: "© 2025 Mi Página Personal — Todos los derechos reservados."
 
 # Markdown & plugins
 markdown: kramdown
