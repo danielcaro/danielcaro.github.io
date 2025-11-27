@@ -4,4 +4,4 @@ title: Inicio
 ---
 
 Bienvenido a mi página personal.  
-Aquí encontrarás mis tutoriales y notas.
+Aquí publico tutoriales y notas ordenadas por fecha.

@@ -5,4 +5,6 @@ permalink: /about/
 ---
 
 Hola, soy <tu nombre>.  
-Esta es mi página personal donde publico tutoriales y notas.
+Me gusta escribir tutoriales sobre tecnología, software y proyectos personales.
+
+Esta página está hecha con GitHub Pages + Jekyll.
