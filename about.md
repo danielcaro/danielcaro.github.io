@@ -7,8 +7,7 @@ permalink: /about/
 # Daniel Enrique Caro Peñaloza
 
 `Senior Software Engineer`
-`Devops Engineer`
-`Chile`
+`Site Reliability Engineer` `Data Scientist`
 
 <img src="/assets/img/logo_linkedin.jpeg" alt="logo" style="height:200px;text-align:center" >
 
@@ -64,7 +63,7 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 
 ### Methodologies
 
-`Agile` `CI/CD` `TDD` `BDD` `ShapeUp` `Clean Arquitecture` ``
+`Agile` `CI/CD` `TDD` `BDD` `ShapeUp` `Clean Arquitecture`
 
 
 ---
