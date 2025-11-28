@@ -13,6 +13,9 @@ email: "[daniel.caro+github]@[gmail.com]"
 linkedin_username: danielcarop
 github_username:  danielcaro
 
+disqus:
+  shortname: danielcaro-github
+
 # https://github.com/jekyll/minima/blob/v2.5.0/README.md
 minima:
   include_styles: true
