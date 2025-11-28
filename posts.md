@@ -4,16 +4,12 @@ title: Posts
 permalink: /posts/
 ---
 
-<ul>
-{% for tag in site.tags %}
-  <li>
-    <a href="/tag/{{ tag[0] | slugify }}/">
-      {{ tag[0] }} ({{ tag[1].size }})
-    </a>
-  </li>
-{% endfor %}
-</ul>
 
+{% for tag in site.tags %}
+    `[{{ tag[0] }} ({{ tag[1].size }})](/tags/{{ tag[0] | slugify }}/)`
+{% endfor %}
+
+---
 
 {% for post in site.posts %}
 - **[{{ post.title }}]({{ post.url | relative_url }})**  
