@@ -6,7 +6,7 @@ permalink: /posts/
 
 
 {% for tag in site.tags %}
-    `[{{ tag[0] }} ({{ tag[1].size }})](/tags/{{ tag[0] | slugify }}/)`
+    [`{{ tag[0] }} ({{ tag[1].size }})`](/tags/{{ tag[0] | slugify }}/)
 {% endfor %}
 
 ---
