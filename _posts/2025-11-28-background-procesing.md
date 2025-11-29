@@ -45,3 +45,11 @@ Aspectos que quedan desatendidos o cubiertos parcialmente por las
 herramientas que traen cada framework, recordemos que son herramientas
 generales, y lo ideal es tener una herramienta lo más adecuada a nuestras necesidades.
 
+Algunos ejemplos de preguntas a responder son:
+
+- Tiempo de procesamiento.
+- Tiempos de espera.
+- Número de errores.
+- Estado de los procesos actuales.
+- Tamaño de colas de procesos pendientes.
+

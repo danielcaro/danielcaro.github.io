@@ -2,6 +2,14 @@
 layout: page
 ---
 
+```markdown
+
+{% for tag in site.tags %}
+-  [{{ tag[0] }} ({{ tag[1].size }})](/tags/{{ tag[0] | slugify }}/)
+{% endfor %}
+
+```
+
 <h1>Tag: {{ page.tag }}</h1>
 
 <ul>
