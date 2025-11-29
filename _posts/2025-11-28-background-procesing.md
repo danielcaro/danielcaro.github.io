@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Background Processing:<br> <b>The Problem & the Challenge</b>"
+title: "Background Processing: The Problem & the Challenge"
 comments: true
 date: 2025-11-28
 tags: [code, background, architecture]

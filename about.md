@@ -45,6 +45,21 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 * C++ Firmware developer
 * Java Backend developer for IoT Device Gateway
 
+### Support System Engineer , Uptime SA
+**2012-2017**
+
+* Support and maintenance of dispatch platform.
+* Develop new integrations between clientes and dispatch platform.
+
+### Software Engineer at CTH Chile
+**2010-2012**
+
+* Software developer, medical equipment maintenance platform.
+
+### Software Engineer at Dhemax Chile
+**2006-2011**
+
+* Software developer at several IoT projects.
 --- 
 
 ## Skills
@@ -74,6 +89,11 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 * Degree Bachelor of Science
 * Electronic, Telecommunications & Computer Engineering
 * Location: Valparaiso, Chile
+
+### Process Mining: Data science in Action
+* Coursera, TU/E
+* Fecha: 2015-05
+* Credencial: [U8P93CQU9A](https://www.coursera.org/account/accomplishments/verify/U8P93CQU9A)
 
 ### Process Mining: Data science in Action
 * Coursera, TU/E
