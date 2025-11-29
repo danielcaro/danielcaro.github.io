@@ -1,55 +1,59 @@
 ---
 layout: post
-title: "Background Processing"
+title: "Background Processing: The Problem & the Challenge "
 comments: true
 date: 2025-11-28
 tags: [code, background, architecture]
 ---
 
-Todo sistema requiere procesamiento en segundo plano, aunque al comienzo
-sea destimada su necesidad, a medida que sus casos de uso crecen, se vuelve
-importante.  Y un hecho que sucede en muchas ocasiones es que la necesidad 
-y urgencia van a preceder los acuerdos arquitectónicos que se hagan, 
-dando espacio a medidas improvisadas y medida del caso particular, 
-que no son adecuadas para el futuro. A continuación revisaremos 
+Every system eventually requires background processing. Early in a product’s lifecycle,
+this need is often underestimated, but as the platform grows and workflows become more complex,
+the importance of a well-designed background processing layer becomes unavoidable. 
+When urgency arrives before architectural clarity, teams frequently resort to ad-hoc
+solutions—quick fixes that solve the moment but create long-term operational debt.
+The goal is to build an execution layer that scales with the business, supports product 
+evolution, and stays out of the way of core development.
 
-algunos aspectos importantes que debe considerar para generar una capa 
-de procesamiento en segundo plano que permita al equipo enfocarse en 
-la funcionalidad principal del sistema.
+## Framework and Infrastructure
+
+Many frameworks provide built-in tools for asynchronous work—Rails with ActiveJob,
+Django with Celery, Spring with Spring Batch, and others. These can cover essential 
+needs such as queueing and scheduling. However, their limitations in scalability,
+resilience, and flexibility can become apparent as the system grows.
+
+Choosing the right approach requires evaluating:
+
+- The expected growth of background workloads
+- The operational complexity your team can support
+- Whether the framework’s native tools align with long-term architectural goals
 
 
-## Framework e Infraestructura.
+In many cases, complementing or replacing built-in tools with a dedicated background processing 
+layer becomes necessary. The surrounding infrastructure must also be designed to support this: 
+horizontally scalable, fault-tolerant, and easily configurable.
 
-Algunos frameworks tienen capacidades de procesamiento en segundo plano 
-integradas, como Rails con ActiveJob, Django con Celery, o Spring con 
-Spring Batch. Estas capacidades pueden ser útiles para implementar procesos 
-asíncronos y tareas programadas, pero pueden tener limitaciones en términos 
-de escalabilidad y flexibilidad. Es importante evaluar las necesidades del 
-proyecto y las capacidades del framework antes de decidir si utilizar 
-una solución integrada o implementar una solución personalizada.
+## Visibility and Control
 
-La infraestructura debe poder configurarse y adaptarse al 
-procesamiento en segundo plano, especialmente para garantizar que 
-el sistema sea escalable y resistente a errores. 
+For any meaningful background processing strategy, observability is non-negotiable. 
+The organization needs clear insight into how asynchronous work behaves in production 
+and enough control to respond quickly when something goes wrong.
 
-### Visibilidad y Control
+A robust solution should provide:
 
-La visibilidad y control sobre los procesos en segundo plano son aspectos 
-cruciales para garantizar que el sistema funcione correctamente y que 
-los errores puedan ser detectados y solucionados de manera eficiente. 
-Es importante tener métricas y logs para monitorear el estado de los 
-procesos, así como herramientas de control para pausar, reanudar y 
-cancelar procesos según sea necesario. 
+- Operational metrics
+- Tracing and structured logs
+- Dashboards for real-time visibility
+- Administrative capabilities to pause, resume, retry, or cancel jobs
 
-Aspectos que quedan desatendidos o cubiertos parcialmente por las
-herramientas que traen cada framework, recordemos que son herramientas
-generales, y lo ideal es tener una herramienta lo más adecuada a nuestras necesidades.
+These needs are often only partially met by framework-level tools,
+which prioritize generality over operational depth. As the system matures,
+bespoke visibility and control mechanisms become essential.
 
-Algunos ejemplos de preguntas a responder son:
+Key questions your platform should consistently answer:
 
-- Tiempo de procesamiento.
-- Tiempos de espera.
-- Número de errores.
-- Estado de los procesos actuales.
-- Tamaño de colas de procesos pendientes.
+- How long do jobs take to execute?
+- How long are they waiting in the queue?
+- What are the error rates and failure patterns?
+- What is the real-time status of executing jobs?
+- How large are the pending queues and how fast are they growing?
 
