@@ -34,4 +34,14 @@ el sistema sea escalable y resistente a errores.
 
 ### Visibilidad y Control
 
+La visibilidad y control sobre los procesos en segundo plano son aspectos 
+cruciales para garantizar que el sistema funcione correctamente y que 
+los errores puedan ser detectados y solucionados de manera eficiente. 
+Es importante tener métricas y logs para monitorear el estado de los 
+procesos, así como herramientas de control para pausar, reanudar y 
+cancelar procesos según sea necesario. 
+
+Aspectos que quedan desatendidos o cubiertos parcialmente por las
+herramientas que traen cada framework, recordemos que son herramientas
+generales, y lo ideal es tener una herramienta lo más adecuada a nuestras necesidades.
 
