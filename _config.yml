@@ -1,6 +1,6 @@
 title: Sustainable Software
 description: Personal blog about software development and sustainability. I don't speak English as a native language, so please excuse my level.
-theme: minima
+remote_theme: "bamr87/zer0-mistakes"
 logo: /assets/img/logo_linkedin.jpeg
 
 header_pages:
@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-mermaid
+  - jekyll-remote-theme
 
 # Other collections
 collections:
