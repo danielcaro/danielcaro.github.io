@@ -2,6 +2,7 @@ title: Sustainable Software
 description: Personal blog about software development and sustainability. I don't speak English as a native language, so please excuse my level.
 theme: minima
 logo: /assets/img/logo_linkedin.jpeg
+mermaid: true
 
 header_pages:
   - index.md
