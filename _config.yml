@@ -24,8 +24,6 @@ minima:
 sass:
   style: compressed
 
-gem:
-  [ jekyll-mermaid]
 
 # Markdown & plugins
 markdown: kramdown
