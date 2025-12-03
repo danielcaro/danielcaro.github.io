@@ -24,11 +24,15 @@ minima:
 sass:
   style: compressed
 
+gem:
+  [ jekyll-mermaid]
+
 # Markdown & plugins
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-mermaid
 
 # Other collections
 collections:
