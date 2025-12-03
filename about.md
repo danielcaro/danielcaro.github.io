@@ -21,6 +21,7 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 
 --- 
 
+
 ## Experience
 
 ### Senior Software Engineer at AIM Manager
@@ -60,6 +61,8 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 **2006-2011**
 
 * Software developer at several IoT projects.
+
+
 --- 
 
 ## Skills
@@ -95,7 +98,12 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 * Fecha: 2015-05
 * Credencial: [U8P93CQU9A](https://www.coursera.org/account/accomplishments/verify/U8P93CQU9A)
 
-### Process Mining: Data science in Action
-* Coursera, TU/E
-* Fecha: 2015-05
-* Credencial: [U8P93CQU9A](https://www.coursera.org/account/accomplishments/verify/U8P93CQU9A)
+### Pattern Discovery in Data Mining
+* Coursera, Illinois
+* Fecha: 2015-04
+* Credencial: [DRZB9KQ4RX](https://www.coursera.org/account/accomplishments/verify/DRZB9KQ4RX)
+
+### Cluster Analysis in Data Minin
+* Coursera, Illinois
+* Fecha: 2015-06
+* Credencial: [JVZQ6VTSD3](https://www.coursera.org/account/accomplishments/verify/JVZQ6VTSD3)
