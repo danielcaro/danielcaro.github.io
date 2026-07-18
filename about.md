@@ -6,9 +6,13 @@ permalink: /about/
 
 # Daniel Enrique Caro Peñaloza
 
-[CV English]({{ '/storage/cv/CV_English.pdf' | relative_url }})
+<a href="{{ '/assets/files/CV_English.pdf' | relative_url }}" download>
+<i class="fas fa-file-pdf"></i> CV English
+</a>
 
-[CV Spanish]({{ '/storage/cv/CV_Spansih.pdf' | relative_url }})
+<a href="{{ '/assets/files/CV_Spanish.pdf' | relative_url }}" download>
+<i class="fas fa-file-pdf"></i> CV Spanish
+</a>
 
 `Senior Software Engineer`
 `Site Reliability Engineer` `Data Scientist`
@@ -29,7 +33,7 @@ Proven ability to deliver high-quality solutions and contribute effectively to t
 ## Experience
 
 ### Senior Software Engineer at AIM Manager
-**2019-present**
+**2019-2026**
 
 * Full stack developer, springboot and angular.
 * Python Backend developer.
