@@ -1,0 +1,269 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dateshttps://www.overleaf.com/project/5e5531c9d0af8200017eede6
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Daniel Enrique}{Caro Peñaloza}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+% \address{my address, line 1, line 2, line 3, postcode}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+56 9 8261 3696}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{daniel.caro@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.linkedin.com/in/danielcarop/}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{Ingeniero Civil Telemático de la Universidad Técnica Federíco Santa María, con experiencia en el ciclo completo del desarrollo de software.}
+
+
+\section{Experiencia Laboral}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item{\cventry{Marzo 2019-- Junio 2026}{Ingeniero de Software Senior }{AIM Manager}{Las Condes}{}
+{\vspace{3pt}
+Implementar módulos para plataforma SaaS, que ayuda a centros comerciales a gestionar su operación. Desarrollado con microservicios en Spring Boot, Quarkus, Kafka, GCP Pubsub y usando KONG y GCP API Gateway . Participación activa en el modelamiento e implementación de distintos módulos, y generación de librerías para uso interno.
+\begin{itemize}
+\item Diseñar e implementar APIs, wrappers a librerías e Integraciones varias .
+\item Implementación de Modulo de notificaciones centralizada y sus librerías de uso, con soporte a SSE, PushNotifications, inbox con registro de visualización y correo electrónico .
+\item Implementación de motor BPMN para ser usado dentro de la plataforma.
+\item Sistema para almacenar y auditar eventos y acciones de los usuarios, y los cambios sobre las entidades relevantes del sistema.
+\end{itemize}
+}}
+
+\vspace{6pt}
+
+\item{\cventry{Junio 2023 -- Mayo 2024}{Freelance Developer y Consultoría}{Dhemax Ltda}{Viña del Mar}{}{\vspace{3pt} Implementación de estandar OCPI (Open Charge Point Interface) protocolo usado para roaming e interoporabilidad de cargadores de autos eléctricos. Apoyar en la implementación de buenas practicas en los flujos de desarrollo y paso a producción . Diseño de un DRP Plan de Recuperación ante desastres, considerando la nube AWS e infraestructura cómo código usando terraform. }}
+
+\vspace{6pt}
+
+\item{\cventry{Marzo 2018-- Febrero 2019}{Ingeniero de Software Senior y Scrum Master}{Modyo Chile}{Vitacura}{}
+{\vspace{3pt}
+Gestionar, asesorar y llevar a cabo nuevas iniciativas para empresas usando la plataforma digital ModyoDX . Entre las empresas estuvieron Sencillito.com y la aplicación de pago de Copec para celulares.
+\begin{itemize}
+\item Diseñar e implementar API para integración de pago B2B con empresas externas.
+\item Levantar portal para agentes de las sucursales con información de transacciones y cierres.
+\item Funcionalidad para aceptar códigos de descuentos.
+\item Implementar servicios de integración a nueva API Rest y retrocompatibilidad con la versión en sockets TCP.
+\end{itemize}
+}}
+
+\vspace{6pt}
+
+\item{\cventry{Junio 2017 -- Marzo 2018}{Desarrollador de Software}{IICMT}{Ñuñoa}{}
+{\vspace{3pt}
+Diseñar e implementar plataforma IoT para gestión y automatización de variables ambientales para huertos domiciliarios.  Plataforma desarrollada usando C++ (QT) en los dispositivos y de control remoto usando Java, sockets y base de datos no relacional.
+}}
+
+\vspace{6pt}
+
+\item{\cventry{Septiembre 2014 -- Mayo 2017}{Arquitecto de Software y Analista de Datos}{Uptime SA}{Las Condes}{}{\vspace{3pt} Diseñar e implementación de una plataforma de indicadores en tiempo real para la operación minera, usando datos proveniente de sus sistemas operacionales y de reportería. }}
+
+\vspace{6pt}
+
+\item{\cventry{Junio 2014 -- Agosto 2014}{Desarrollador de Software}{deLaGuayaba}{San José, Costa Rica}{}{\vspace{3pt} Diseñar y desarrollar plataforma para la gestión de proyectos con flujos de trabájo dinámicos (workflows) . }}
+
+\vspace{6pt}
+
+\item{\cventry{Abril 2012 -- Junio 2014}{Ingeniero Soporte y Supervisor}{Uptime SA}{Calama}{}{\vspace{3pt} Soporte, integración y gestión de equipo técnico, enfocado principalmente a la operación 24x7 del sistema de despacho minero en Codelco Norte (Chuquicamata, Ministro Hales, y Radomiro Tomic). }}
+
+\vspace{6pt}
+
+\item{\cventry{Octubre 2010 -- Febrero 2012}{Desarrollador de Software y Analista}{CTH Chile}{Viña del Mar}{}{\vspace{3pt} Desarrollar software para apoyar en la planificación del manetenimiento de equipamiento médico.}}
+
+\vspace{6pt}
+
+\item{\cventry{Marzo 2007 -- Diciembre 2009}{Desarrollador de Software y Lider técnico}{Dhemax Ltda}{Viña del Mar}{}{\vspace{3pt} Desarrollar plataforma de telemetría (consumo eléctrico) y la implementación de un PoS biométrico de control de acceso.}}
+
+
+\end{itemize}
+
+\section{Formación}
+
+\vspace{5pt}
+
+\subsection{Académica}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2003--2011}{Ingeniero Civil Telemático}{Universidad Técnica Federíco Santa María}{Valparaíso}{\textit{Departamento de Electrónica.}}{}}
+
+
+%\item{\cventry{2009--2011}{A levels}{Runshaw College}{Leyland}{\textit{ICT (A) Physics (B) Maths (B)}}{}}  % arguments 3 to 6 can be left empty
+
+%\item{\cventry{2002--2009}{11 GCSEs}{Southlands High School}{Chorley}{\textit{A* to B Including Maths and English}}{}}
+
+\end{itemize}
+
+
+\subsection{Cursos y Seminarios}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+
+%\item{\cventry{Marzo 2017}{Fundación País Digital}
+%{Capacitaciones para el Emprendimiento en IoT}{Providencia}{\textit{iF Costanera}}{}}
+
+%\item{\cventry{Marzo 2017}{Google}
+%{Google NEXT 2017}{San Francisco, CA}{\textit{EEUU}}{}}
+\item{\cventry{Septiembre 2020}{FutureLearn}
+{Introduction to GDPR: General Data Protection Regulation}
+{Online}{University College London}
+{}}
+
+\item{\cventry{Marzo 2017}{isQED}
+{IoT Summit 2017 }{Santa Clara, CA}{\textit{International Symposium on Quality Electronic Design}}{}}
+
+\item{\cventry{Junio 2015}{CASCADE}
+{The Data and Design Series 2017 }{San Francisco, CA}{\textit{San Francisco.}}{}}
+
+\item{\cventry{Junio 2015}{Coursera.org}
+{Cluster Analysis in Data Mining \href{hhttps://www.coursera.org/account/accomplishments/certificate/JVZQ6VTSD3}{JVZQ6VTSD3}}{Online}{\textit{University of Illinois at Urbana-Champaign}}{}}
+
+\item{\cventry{Abril 2015}{Coursera.org}
+{Pattern Discovery in Data Mining \href{https://www.coursera.org/account/accomplishments/certificate/DRZB9KQ4RX}{DRZB9KQ4RX}}{Online}{\textit{University of Illinois at Urbana-Champaign}}{}}
+
+\item{\cventry{Mayo 2015}{Coursera.org}
+{Process Mining: Data science in Action  \href{https://www.coursera.org/account/accomplishments/certificate/U8P93CQU9A}{U8P93CQU9A} }{Online}{\textit{Eindhoven University of Technology }}{}}
+
+
+%\item{\cventry{Marzo 2015}{Coursera.org}
+%{R Programming \href{https://www.coursera.org/account/accomplishments/certificate/N7SNTH8W6E}{N7SNTH8W6E} }{Online}{\textit{Johns Hopkins %University}}{}}
+
+%\item{\cventry{ Julio 2014}{Intel}{Ideation - Emprendimiento
+%}{San José, Costa Rica}{\textit{Costa Rica}}{}}
+
+%\item{\cventry{2010}{IGT}{Workshop Web and Mobile Technologies 2010
+%}{Valparaíso}{\textit{Innspiral}}{}}
+
+%\item{\cventry{Octubre 2007}{Escuela de Informática y Telecomunicaciones }{IV International School on
+%Network Security Impact on Quality Software Engineering
+%}{Valparaíso}{\textit{DuocUC}}{}}
+
+\end{itemize}
+
+
+\section{Competencias y Habilidades}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Lenguajes de Programación:} C, C++, Java, Kotlin, Typescript,  Ruby, Javascript, Bash, Elixir , SQL y  R.
+\vspace{6pt}
+
+\item \textbf{Herramientas:} Office, Linux, Docker, Kubernetes, Terraform, GCP, AWS, Keycloak,  Kafka y Git .
+\vspace{6pt}
+
+\item \textbf{Frameworks:} Spring Boot, Angular, Quarkus, RX, Vue.JS
+\vspace{6pt}
+
+\item \textbf{Otros:} Experiencia trabajando en faena y gestionando equipos multidisciplinarios.
+
+\end{itemize}
+
+\section{Intereses}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{Deportes al aire libre cómo el Mountain Bike, trekking, ski y  surf .}
+
+\vspace{6pt}
+
+\item{Interés en comportamiento humano, sociología y de sesgos cognitivos .}
+
+\vspace{6pt}
+
+
+
+\end{itemize}
+
+\section{References}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{Carlos Contreras (carlos@aimmanager.com) +56 2 587 1810 }
+\item{Arnaldo Gaspar (arnaldog@gmail.com) +56 2 587 1810 }
+\item{Pablo Cordova (pcordova@modyo.com) +56 2 587 1810 }
+\item{Matías Díaz (mdiaz@iicmt.cl) +56 9 8200 8004}
+\item{Juan Monsalve Z. (jmonsalvezaro@gmail.com) +56 9 8451 8653 }
+\item{Cristian Díaz Á.(cristian.diaz@cthchile.com) +56 32 299 55 23}
+\item{Andrés Barentin Calvo (abarentin@dhemax.com) +56 9 991 011 47}
+\item{Eric de la Goublaye de Menorval (eric@delaguayaba.com)}
+
+\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.

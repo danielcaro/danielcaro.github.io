@@ -6,6 +6,10 @@ permalink: /about/
 
 # Daniel Enrique Caro Peñaloza
 
+[CV English]({{ '/storage/cv/CV_English.pdf' | relative_url }})
+
+[CV Spanish]({{ '/storage/cv/CV_Spansih.pdf' | relative_url }})
+
 `Senior Software Engineer`
 `Site Reliability Engineer` `Data Scientist`
 
