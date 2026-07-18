@@ -17,4 +17,7 @@ Medir el estado anímico del equipo de forma anonima, y analizarlo día a día .
 * Errores 
   * Dinámicos, datos -> Armados de query y filtros
   * 
-*  Definiciòn de funcuonalidades actuales, y funcionalidades usadas por cada cliente o usuario ...
+*  Definiciòn de funcuonalidades actuales, y funcionalidades usadas por cada cliente o usuario ..
+* 
+* 
+* https://aws.amazon.com/es/blogs/opensource/sustainability-with-rust/.
